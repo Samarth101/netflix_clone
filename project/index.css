@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.main {
+    background-image: url(/project/asset/image/IN-en-20240701-POP_SIGNUP_TWO_WEEKS-perspective_WEB_b00eeb83-a7e8-4b5b-8ff7-86ed92c51caf_large.jpg);
+    background-position: center center;
+    background-size: max(1400px, 100vw);
+    height: 700px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main .box {
+    height: 700px;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0 ;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 60vw;
+    margin: auto;
+    position: relative;
+    height: 100px;
+     z-index: 10;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    
+}
+
+
+
+.content {
+    height: calc(100% - 100px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    
+    font-size: 22px;
+}
+
+.content span {
+    padding: 10px;
+}
+
+.content> :first-child {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.sepration {
+    height: 11px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.btn_si {
+    background-color: red;
+    color: white;
+}
+
+.btn_gs {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    
+}
+
+.part2 img {
+    position: relative;
+    z-index: 1;
+}
+.vid {
+    position: relative;
+}
+
+.video1 {
+    position: absolute;
+    top: 95px;
+    right: 83px;
+    scale: 97%;
+}
+
+.part2 h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.sepration2{
+    height: 11px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.video2 {
+    position: absolute;
+    top: 26px ;
+    right: 85px;
+    z-index: 0;
+    scale: 0.8;
+}
